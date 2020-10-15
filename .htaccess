@@ -1,0 +1,14 @@
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_METHOD} ^GET$
+RewriteRule ^reviews$ controllers/reviews.php?action=index
+
+RewriteCond %{REQUEST_METHOD} ^POST$
+RewriteRule ^reviews$ controllers/reviews.php?action=create
+
+RewriteCond %{REQUEST_METHOD} ^PUT$
+RewriteRule ^reviews/([0-9]+)$ controllers/reviews.php?action=update&id=$1
+
+RewriteCond %{REQUEST_METHOD} ^DELETE$
+RewriteRule ^reviews/([0-9]+)$ controllers/reviews.php?action=delete&id=$1
