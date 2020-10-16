@@ -11,3 +11,24 @@ footer {
 .fab {
   color: black;
 }
+
+/* MENU CSS */
+
+#daytimeID {
+  margin-left: 1.5em;
+}
+.daytime-menu {
+  padding-top: 1em;
+  margin-left: 2em;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.breakfast-sides {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

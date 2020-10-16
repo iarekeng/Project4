@@ -65,6 +65,7 @@ state = {
   render = () => {
     return <div>
     <Nav/>
+    <Menu/>
     <CreateReview createCallBack={this.updateReview}></CreateReview>
     <h2>List of Reviews</h2>
     <ul>
