@@ -7,8 +7,9 @@ class App extends React.Component {
         <input type="number" placeholder="rating" /><br/>
         <input type="text" placeholder="description" /><br/>
         <input type="submit" placeholder="Send Review!" /><br/>
-        
+
       </form>
+      <Footer></Footer>
     </div>
   }
 }
