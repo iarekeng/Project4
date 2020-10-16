@@ -3,8 +3,14 @@ header('Content-Type: application/json');
 include_once __DIR__ . '/../models/review.php';
 
 if($_REQUEST['action'] === 'index'){
+<<<<<<< HEAD
+    echo 'hi';
+}
+else if ($_REQUEST['action'] === 'create'){
+=======
     echo json_encode(Reviews::all());
 }else if ($_REQUEST['action'] === 'create'){
+>>>>>>> 76a4d5818e778071e97496e3f3dc43d799ba54af
   $request_body = file_get_contents('php://input');
   $body_object = json_decode($request_body);
   $new_review = new Review(null, $body_object->name, $body_object->rating, $body_object->description);

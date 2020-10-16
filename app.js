@@ -86,6 +86,8 @@ state = {
         )
       }
       </ul>
+
+      <Footer/>
     </div>
   }
 }
