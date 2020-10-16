@@ -40,7 +40,7 @@ class Reviews {
     return self::all();
   }
   static function update($updated_review){
-    $query = "UPDATE reviews SET name = $1, rating = $2, description = $3 WHERE id = $3";
+    $query = "UPDATE reviews SET name = $1, rating = $2, description = $3 WHERE id = $4";
     $query_params = array($updated_review->name, $updated_review->rating, $updated_review->description, $updated_review->id);
     pg_query_params($query, $query_params);
     return self::all();
