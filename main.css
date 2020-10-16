@@ -7,3 +7,7 @@ footer {
 .footer1, .footer2, .footer3 {
   width: 31%;
 }
+
+.fab {
+  color: black;
+}
