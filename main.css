@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer1, .footer2, .footer3 {
+  width: 31%;
+}
