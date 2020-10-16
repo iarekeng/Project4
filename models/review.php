@@ -34,19 +34,19 @@ class Review {
 
 class Reviews {
   static function create($review){
-    $query = "INSERT INTO review (name, rating, description) VALUES ($1, $2, $3)";
+    $query = "INSERT INTO reviews (name, rating, description) VALUES ($1, $2, $3)";
     $query_params = array($review->name, $review->rating, $review->description);
     pg_query_params($query, $query_params);
     return self::all();
   }
   static function update($updated_review){
-    $query = "UPDATE review SET name = $1, rating = $2, description = $3 WHERE id = $3";
+    $query = "UPDATE reviews SET name = $1, rating = $2, description = $3 WHERE id = $3";
     $query_params = array($updated_review->name, $updated_review->rating, $updated_review->description, $updated_review->id);
     pg_query_params($query, $query_params);
     return self::all();
   }
   static function delete($id){
-    $query = "DELETE FROM review WHERE id = $1";
+    $query = "DELETE FROM reviews WHERE id = $1";
     $query_params = array($id);
     pg_query_params($query, $query_params);
     return self::all();
