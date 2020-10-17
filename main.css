@@ -1,20 +1,8 @@
-* {
+/* * {
   border: solid gold 1px;
-}
+} */
 
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
-.footer1, .footer2, .footer3 {
-  width: 31%;
-}
-
-.fab {
-  color: black;
-}
 
 /* REVIEWS CSS */
 
@@ -79,4 +67,32 @@ video {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+
+/* CAROUSEL CSS */
+
+
+.carousel-item img {
+  width: 350px;
+  height: 450px;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+/* FOOTER CSS */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer1, .footer2, .footer3 {
+  width: 31%;
+}
+
+.fab {
+  color: black;
 }

@@ -1,6 +1,7 @@
 class Carousel extends React.Component {
   render = () => {
     return (
+      <div className="container">
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -13,25 +14,25 @@ class Carousel extends React.Component {
           <div className="carousel-item active">
             <img src="https://image.zmenu.com/large/938470/20141104192622727000.jpg" className="d-block w-100" alt="french toast picture" />
             <div className="carousel-caption d-none d-md-block">
-               <h5>Crème Brûlée French Toast</h5>
+               <h3>Crème Brûlée French Toast</h3>
             </div>
           </div>
           <div className="carousel-item">
             <img src="https://www.seriouseats.com/images/2012/07/20120725-lobster-ceviche-latin-cuisine-6.jpg" className="d-block w-100" alt="lobster ceviche picture" />
             <div className="carousel-caption d-none d-md-block">
-               <h5>Lobster Ceviche</h5>
+               <h3>Lobster Ceviche</h3>
             </div>
           </div>
           <div className="carousel-item">
             <img src="https://oursaltykitchen.com/wp-content/uploads/2019/01/whole30-steak-bites-11.jpg" className="d-block w-100" alt="rib eye picture" />
             <div className="carousel-caption d-none d-md-block">
-               <h5>Rib Eye</h5>
+               <h3>Rib Eye</h3>
             </div>
           </div>
           <div className="carousel-item">
             <img src="https://thefirstyearblog.com/wp-content/uploads/2017/12/Chocolate-Peanut-Butter-Mousse-9-600x899.jpg" className="d-block w-100" alt="Reese's chocolate mousse" />
             <div className="carousel-caption d-none d-md-block">
-               <h5>Reese's Gelato and Mousse</h5>
+               <h3>Reese's Gelato and Mousse</h3>
             </div>
           </div>
         </div>
@@ -44,7 +45,7 @@ class Carousel extends React.Component {
           <span className="sr-only">Next</span>
         </a>
     </div>
-
+    </div>
     )
   }
 }
