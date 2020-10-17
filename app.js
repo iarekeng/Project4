@@ -71,12 +71,12 @@ state = {
     <DinnerMenu/>
     <DessertMenu/>
     <CreateReview createCallBack={this.updateReview}></CreateReview>
-    <h2>List of Reviews</h2>
-    <ul>
+    <h2 className="list-title">List of Reviews</h2>
+    <ul className="list-ul">
       {
         this.state.reviews.map(
           (review) => {
-            return <li>
+            return <li className="list-li">
               {review.name}: {review.rating}: {review.description}
               <button value={review.id} onClick={this.deleteReview}>
               DELETE
