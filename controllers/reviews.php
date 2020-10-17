@@ -4,10 +4,7 @@ include_once __DIR__ . '/../models/review.php';
 
 if($_REQUEST['action'] === 'index'){
     echo json_encode(Reviews::all());
-}
-else if ($_REQUEST['action'] === 'create'){
-    echo json_encode(Reviews::all());
-}else if ($_REQUEST['action'] === 'create'){
+} else if ($_REQUEST['action'] === 'create'){
   $request_body = file_get_contents('php://input');
   $body_object = json_decode($request_body);
   $new_review = new Review(null, $body_object->name, $body_object->rating, $body_object->description);
