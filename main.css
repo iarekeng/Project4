@@ -84,6 +84,7 @@ video {
 
 /* FOOTER CSS */
 footer {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
