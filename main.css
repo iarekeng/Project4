@@ -1,3 +1,7 @@
+* {
+  border: solid gold 1px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -11,6 +15,23 @@ footer {
 .fab {
   color: black;
 }
+
+/* REVIEWS CSS */
+
+.createReview-container, .list-ul {
+  padding-top: 1em;
+  margin-left: 9em;
+}
+
+.list-title {
+  padding-top: 1em;
+  margin-left: 4.6em;
+}
+
+.list-li {
+  list-style-type: none;
+}
+
 
 /* BANNER CSS */
 video {
