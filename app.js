@@ -78,15 +78,17 @@ state = {
           (review) => {
             return <li className="list-li">
               {review.name}: {review.rating}: {review.description}
-              <button value={review.id} onClick={this.deleteReview}>
-              DELETE
-              </button>
+              <details><summary>Edit</summary>
               <form id={review.id} onSubmit={this.updateReviews}>
               <input onKeyUp={this.changeUpdateReviewName} type="text" placeholder="name" /><br/>
               <input onKeyUp={this.changeUpdateReviewRating} type="number" placeholder="rating" /><br/>
               <input onKeyUp={this.changeUpdateReviewDescription} type="text" placeholder="description" /><br/>
-              <input type="submit" placeholder="Update Review" /><br/>
+              <input type="submit" placeholder="Update Review" />
+              <button value={review.id} onClick={this.deleteReview}>
+              DELETE
+              </button>
               </form>
+              </details>
             </li>
           }
         )
