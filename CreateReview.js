@@ -36,7 +36,7 @@ createRating = (event) => {
 
   render = () => {
     return <div className="createReview-container">
-    <h2 className="createReview-title">Leave a review!</h2>
+    <h2 id="reviewID" className="createReview-title">Leave a review!</h2>
     <form onSubmit={this.createRating}>
       <input onKeyUp={this.changeNewPersonName} type="text" placeholder="name" /><br/>
       <input onKeyUp={this.changeNewPersonRating} type="number" placeholder="rating" /><br/>

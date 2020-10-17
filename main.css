@@ -84,6 +84,7 @@ video {
 
 /* FOOTER CSS */
 footer {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -95,4 +96,5 @@ footer {
 
 .fab {
   color: black;
+  padding: 1em .5em 1em .5em;
 }

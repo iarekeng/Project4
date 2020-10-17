@@ -15,16 +15,17 @@ class Nav extends React.Component {
         <a className="nav-link" href="#">Reservations</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Gift Cards</a>
+        <a className="nav-link" href="#reviewID">Leave Review</a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Menus
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" href="#">Lunch</a>
-          <a className="dropdown-item" href="#">Dinner</a>
-          <a className="dropdown-item" href="#">Drinks</a>
+          <a className="dropdown-item" href="#daytimeID">Breakfast</a>
+          <a className="dropdown-item" href="#lunchID">Lunch</a>
+          <a className="dropdown-item" href="#dinnerID">Dinner</a>
+          <a className="dropdown-item" href="#dessertID">Dessert</a>
         </div>
       </li>
     </ul>
