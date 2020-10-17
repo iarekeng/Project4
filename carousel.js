@@ -11,6 +11,7 @@ class Carousel extends React.Component {
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -33,6 +34,9 @@ class Carousel extends React.Component {
             <div className="carousel-caption d-none d-md-block">
                <h3>Rib Eye</h3>
             </div>
+          </div>
+          <div className="carousel-item">
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/p960x960/67313944_107340703941245_8872894850005991424_o.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=aG5wXfOuPtgAX-6n4FU&_nc_ht=scontent-lax3-1.xx&tp=6&oh=4ef5b954149581959cd80fc3d93833ee&oe=5FB0002F" className="d-block w-100" alt="cocktail" />
           </div>
           <div className="carousel-item">
             <img src="https://thefirstyearblog.com/wp-content/uploads/2017/12/Chocolate-Peanut-Butter-Mousse-9-600x899.jpg" className="d-block w-100" alt="Reese's chocolate mousse" />
