@@ -92,7 +92,7 @@ state = {
         )
       }
       </ul>
-
+      <Carousel/>
       <Footer/>
     </div>
   }
