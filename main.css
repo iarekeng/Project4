@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid gold 1px;
-}
+} */
 
 
 
@@ -71,6 +71,16 @@ video {
 
 
 /* CAROUSEL CSS */
+
+
+.carousel-item img {
+  width: 350px;
+  height: 500px;
+}
+
+.carousel-caption {
+  color: black;
+}
 
 /* FOOTER CSS */
 footer {
