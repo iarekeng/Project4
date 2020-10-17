@@ -65,6 +65,7 @@ state = {
   render = () => {
     return <div>
     <Nav/>
+    <Banner/>
     <BreakfastMenu/>
     <LunchMenu/>
     <DinnerMenu/>
