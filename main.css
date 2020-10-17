@@ -94,6 +94,10 @@ footer {
   width: 31%;
 }
 
+.footer > a {
+  color: black;
+}
+
 .fab {
   color: black;
   padding: 1em .5em 1em .5em;

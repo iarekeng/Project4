@@ -3,9 +3,9 @@ class Footer extends React.Component {
     return (
       <footer>
         <div className="footer1">
-            <a href="#">ABOUT</a>
-            <a href="#">RESERVATIONS</a>
-            <a href="#reviewID">LEAVE REVIEW</a>
+            <a href="#">ABOUT</a><br/>
+            <a href="#">RESERVATIONS</a><br/>
+            <a href="#reviewID">LEAVE REVIEW</a><br/>
             <a href="#">CONTACT US</a>
         </div>
         <div className="footer2">
