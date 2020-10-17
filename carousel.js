@@ -9,6 +9,8 @@ class Carousel extends React.Component {
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -24,6 +26,9 @@ class Carousel extends React.Component {
             </div>
           </div>
           <div className="carousel-item">
+            <img src="https://images.getbento.com/accounts/d71e3903e4a7ed5faf7c73be0be329b1/media/images/99511Tequila_Cocktail.jpg?w=1800&fit=max&auto=compress,format&h=1800" className="d-block w-100" alt="tequila cocktail" />
+          </div>
+          <div className="carousel-item">
             <img src="https://oursaltykitchen.com/wp-content/uploads/2019/01/whole30-steak-bites-11.jpg" className="d-block w-100" alt="rib eye picture" />
             <div className="carousel-caption d-none d-md-block">
                <h3>Rib Eye</h3>
@@ -34,6 +39,9 @@ class Carousel extends React.Component {
             <div className="carousel-caption d-none d-md-block">
                <h3>Reese's Gelato and Mousse</h3>
             </div>
+          </div>
+          <div className="carousel-item">
+            <img src="https://images.getbento.com/accounts/d71e3903e4a7ed5faf7c73be0be329b1/media/images/36147Champagne_Cocktail.jpg?w=1800&fit=max&auto=compress,format&h=1800" className="d-block w-100" alt="champagne cocktail" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
