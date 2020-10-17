@@ -22,9 +22,9 @@ class Nav extends React.Component {
           Menus
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a id="daytimeID" className="dropdown-item" href="#daytimeID">Breakfast</a>
           <a className="dropdown-item" href="#">Lunch</a>
           <a className="dropdown-item" href="#">Dinner</a>
-          <a className="dropdown-item" href="#">Drinks</a>
         </div>
       </li>
     </ul>
