@@ -2,6 +2,8 @@
   /* border: solid gold 1px; */
 }
 
+/* FOOTER */
+
 footer {
   display: flex;
   flex-direction: row;
@@ -14,6 +16,12 @@ footer {
 
 .fab {
   color: black;
+}
+
+/* CAROUSEL */
+
+.carousel > img {
+  height: 500px;
 }
 
 /* REVIEWS CSS */
