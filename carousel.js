@@ -15,16 +15,16 @@ class Carousel extends React.Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/116155592_310497390308299_4427763567129177507_o.jpg?_nc_cat=101&_nc_sid=a26aad&_nc_ohc=Cmm-Pl7ERf8AX9es5u6&_nc_ht=scontent-lax3-1.xx&oh=2d4c04520a701586d4cbb15f33a51629&oe=5FB08A42" />
+            <img className="img-fluid" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/116155592_310497390308299_4427763567129177507_o.jpg?_nc_cat=101&_nc_sid=a26aad&_nc_ohc=Cmm-Pl7ERf8AX9es5u6&_nc_ht=scontent-lax3-1.xx&oh=2d4c04520a701586d4cbb15f33a51629&oe=5FB08A42" />
           </div>
           <div className="carousel-item">
-            <img src="https://www.seriouseats.com/images/2012/07/20120725-lobster-ceviche-latin-cuisine-6.jpg" className="d-block w-100" alt="lobster ceviche picture" />
+            <img src="https://www.seriouseats.com/images/2012/07/20120725-lobster-ceviche-latin-cuisine-6.jpg" className="d-block w-100 img-fluid" alt="lobster ceviche picture" />
           </div>
           <div className="carousel-item">
-            <img src="https://images.getbento.com/accounts/d71e3903e4a7ed5faf7c73be0be329b1/media/images/99511Tequila_Cocktail.jpg?w=1800&fit=max&auto=compress,format&h=1800" className="d-block w-100" alt="tequila cocktail" />
+            <img src="https://images.getbento.com/accounts/d71e3903e4a7ed5faf7c73be0be329b1/media/images/99511Tequila_Cocktail.jpg?w=1800&fit=max&auto=compress,format&h=1800" className="d-block w-100 img-fluid" alt="tequila cocktail" />
           </div>
           <div className="carousel-item">
-            <img src="https://oursaltykitchen.com/wp-content/uploads/2019/01/whole30-steak-bites-11.jpg" className="d-block w-100" alt="rib eye picture" />
+            <img src="https://oursaltykitchen.com/wp-content/uploads/2019/01/whole30-steak-bites-11.jpg" className="d-block w-100 img-fluid" alt="rib eye picture" />
           </div>
           <div className="carousel-item">
             <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/p960x960/67313944_107340703941245_8872894850005991424_o.jpg?_nc_cat=100&_nc_sid=cdbe9c&_nc_ohc=aG5wXfOuPtgAX-6n4FU&_nc_ht=scontent-lax3-1.xx&tp=6&oh=4ef5b954149581959cd80fc3d93833ee&oe=5FB0002F" className="d-block w-100" alt="cocktail" />

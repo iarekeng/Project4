@@ -39,9 +39,9 @@ createRating = (event) => {
     <h2 id="reviewID" className="createReview-title">Leave a review!</h2>
     <form onSubmit={this.createRating}>
       <input onKeyUp={this.changeNewPersonName} type="text" placeholder="name" /><br/>
-      <input onKeyUp={this.changeNewPersonRating} type="number" placeholder="rating" /><br/>
-      <input onKeyUp={this.changeNewPersonDescription} type="text" placeholder="description" /><br/>
-      <input type="submit" placeholder="Send Review!" /><br/>
+      <input className="review-mid" onKeyUp={this.changeNewPersonRating} min="1" max="5" type="number" placeholder="1-5" /><br/>
+      <textarea onKeyUp={this.changeNewPersonDescription} rows="4" cols="40" placeholder="description" /><br/>
+      <input className="btn btn-outline-dark" type="submit" placeholder="Send Review!" /><br/>
     </form>
     </div>
   }

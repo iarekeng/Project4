@@ -3,10 +3,10 @@ class Footer extends React.Component {
     return (
       <footer>
         <div className="footer1">
-            <a href="#">ABOUT</a><br/>
-            <a href="#">RESERVATIONS</a><br/>
-            <a href="#reviewID">LEAVE REVIEW</a><br/>
-            <a href="#">CONTACT US</a>
+            <a className="footer-links" href="#">ABOUT</a><br/>
+            <a className="footer-links" href="#">RESERVATIONS</a><br/>
+            <a className="footer-links" href="#reviewID">LEAVE REVIEW</a><br/>
+            <a className="footer-links" href="#">CONTACT US</a>
         </div>
         <div className="footer2">
         <p>GRAPHIC/LOGO/TEXT HERE</p>

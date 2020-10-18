@@ -71,20 +71,20 @@ state = {
     <DinnerMenu/>
     <DessertMenu/>
     <CreateReview createCallBack={this.updateReview}></CreateReview>
-    <h2 className="list-title">List of Reviews</h2>
+    <h3 className="list-title">List of Reviews</h3>
     <ul className="list-ul">
       {
         this.state.reviews.map(
           (review) => {
             return <li className="list-li">
-              {review.name}: {review.rating}: {review.description}
-              <details><summary>Edit</summary>
+              <p><small>NAME:</small> {review.name}<br/><small> RATING:</small> {review.rating}:<br/> <small>DESCRIPTION:</small> {review.description}</p>
+              <details><summary className="btn btn-outline-dark">Edit</summary><br/>
               <form id={review.id} onSubmit={this.updateReviews}>
               <input onKeyUp={this.changeUpdateReviewName} type="text" placeholder="name" /><br/>
-              <input onKeyUp={this.changeUpdateReviewRating} type="number" placeholder="rating" /><br/>
-              <input onKeyUp={this.changeUpdateReviewDescription} type="text" placeholder="description" /><br/>
-              <input type="submit" placeholder="Update Review" />
-              <button value={review.id} onClick={this.deleteReview}>
+              <input className="review-mid" onKeyUp={this.changeUpdateReviewRating} min="1" max="5" type="number" placeholder="1-5" /><br/>
+              <textarea onKeyUp={this.changeUpdateReviewDescription} rows="4" cols="40" placeholder="description" /><br/>
+              <input id="edit-submit" className="btn btn-outline-dark" type="submit" placeholder="Send Review!" />
+              <button className="btn btn-outline-danger" value={review.id} onClick={this.deleteReview}>
               DELETE
               </button>
               </form>
