@@ -54,7 +54,7 @@ input[type=number] {
 }
 
 .list-title {
-  padding-top: 1em;
+  padding-top: .5em;
   margin-left: 4.6em;
 }
 
@@ -69,6 +69,20 @@ input[type=number] {
 
 #edit-submit {
   margin-right: 5px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.createReview-container {
+  width: 25%;
+}
+
+.reviews {
+  width: 70%;
 }
 
 /* BANNER CSS */
