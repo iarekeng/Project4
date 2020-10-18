@@ -71,13 +71,13 @@ state = {
     <DinnerMenu/>
     <DessertMenu/>
     <CreateReview createCallBack={this.updateReview}></CreateReview>
-    <h3 className="list-title">List of Reviews</h3>
+    <h3 className="list-title">What People are Saying</h3>
     <ul className="list-ul">
       {
         this.state.reviews.map(
           (review) => {
             return <li className="list-li">
-              <p><small>NAME:</small> {review.name}<br/><small> RATING:</small> {review.rating}:<br/> <small>DESCRIPTION:</small> {review.description}</p>
+              <p><small>NAME:</small> {review.name}<br/><small> RATING:</small> {review.rating}<br/> <small>DESCRIPTION:</small> {review.description}</p>
               <details><summary className="btn btn-outline-dark">Edit</summary><br/>
               <form id={review.id} onSubmit={this.updateReviews}>
               <input onKeyUp={this.changeUpdateReviewName} type="text" placeholder="name" /><br/>
