@@ -9,7 +9,8 @@ class Footer extends React.Component {
             <a className="footer-links" href="#">CONTACT US</a>
         </div>
         <div className="footer2">
-        <p>GRAPHIC/LOGO/TEXT HERE</p>
+          <img src="pinchsalt.png" alt="pinch salt logo"/>
+          <p>Copyright {(new Date().getFullYear())} || Artist: <a href="https://www.linkedin.com/in/kellenchumley" target="_blank" className="footer-links">Kellen Chumley</a></p>
         </div>
         <div className="footer3">
           <a href="#" target="_blank"><i className="fab fa-instagram-square fa-3x fa-fw"></i></a>
