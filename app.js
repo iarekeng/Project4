@@ -70,8 +70,10 @@ state = {
     <LunchMenu/>
     <DinnerMenu/>
     <DessertMenu/>
+    <div className="reviews-container">
     <CreateReview createCallBack={this.updateReview}></CreateReview>
-    <h3 className="list-title">What People are Saying</h3>
+    <div className="reviews">
+    <h3 className="list-title">What others are saying</h3>
     <ul className="list-ul">
       {
         this.state.reviews.map(
@@ -94,6 +96,8 @@ state = {
         )
       }
       </ul>
+      </div>
+      </div>
       <Carousel/>
       <Footer/>
     </div>
