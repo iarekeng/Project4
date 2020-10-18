@@ -2,6 +2,12 @@
   /* border: solid gold 1px; */
 }
 
+
+/* GENERAL */
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 3.5em;
+}
 /* FOOTER */
 
 footer {
@@ -124,6 +130,11 @@ video {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  font-family: 'El Messiri', sans-serif;
+}
+
+h4 {
+  font-family: 'El Messiri', sans-serif;
 }
 
 .breakfast-sides, .lunch-sides, .dinner-sides {
