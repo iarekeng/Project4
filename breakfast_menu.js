@@ -2,7 +2,8 @@ class BreakfastMenu extends React.Component {
   render = () => {
     return (
       <div className="menu-container">
-      <h4 id="daytimeID">Brunch <small className=" text-muted">9am-3pm</small></h4>
+      <hr/>
+      <h4 id="daytimeID">Brunch <small className=" text-muted">9am-3pm<hr/></small></h4>
         <div className="daytime-menu">
         <div className="item-menu">
         <p>Fried Egg Brioche Sandwich * 13<br/>
