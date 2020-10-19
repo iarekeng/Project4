@@ -31,7 +31,12 @@ class BreakfastMenu extends React.Component {
         Potatoes * 4 | Seasonal Fruit * 7 </p>
         </div>
       </div>
+      <LunchMenu/>
+      <DinnerMenu/>
+      <DessertMenu/>
+      <DrinkMenu/>
     </div>
+
     )
   }
 }
