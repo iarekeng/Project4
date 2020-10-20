@@ -26,7 +26,7 @@ class DrinkMenu extends React.Component {
         Woodinville Bourbon, Ginger, Lemon Verbena, Cabernet Sauvignon, Citris, Vanilla Bean Tincture</p>
         </div>
         <div className="item-menu">
-        <p>Rum + Coconut * 14<br/>
+        <p>RUM + COCONUT * 14<br/>
         Ron Zacapa Rum, Coconut Roasted Cashew, Amontillado Sherry, Lime Mint</p>
         </div>
       </div>

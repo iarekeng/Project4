@@ -58,8 +58,8 @@ footer {
 /* CAROUSEL */
 
 .carousel, .carousel-item > img {
-  max-width: 550px;
-  max-height: 650px;
+  max-width: 750px;
+  max-height: 850px;
   align: center;
 }
 
