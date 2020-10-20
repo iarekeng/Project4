@@ -66,7 +66,7 @@ state = {
     return <div>
     <Nav/>
     <Banner/>
-    <Menu/>
+    <BreakfastMenu/>
     <div className="reviews-container">
     <CreateReview createCallBack={this.updateReview}></CreateReview>
     <div className="reviews">

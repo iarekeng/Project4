@@ -6,7 +6,7 @@ class Menu extends React.Component {
   <div className="card">
     <div className="card-header" id="headingOne">
       <h2 className="mb-0">
-        <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button className="btn btn-link btn-block text-left menu-buttons" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Brunch Menu
         </button>
       </h2>
@@ -45,12 +45,12 @@ class Menu extends React.Component {
   <div className="card">
     <div className="card-header" id="headingTwo">
       <h2 className="mb-0">
-        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button className="btn btn-link btn-block text-left collapsed menu-buttons" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Lunch Menu
         </button>
       </h2>
     </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div className="card-body lunch-menu">
         <h4 id="lunchID">Lunch <small className="text-muted">Available at 11:00am<hr/></small></h4>
         <div className="item-menu">
@@ -82,7 +82,7 @@ class Menu extends React.Component {
   <div className="card">
     <div className="card-header" id="headingThree">
       <h2 className="mb-0">
-        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button className="btn btn-link btn-block text-left collapsed menu-buttons" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Dinner Menu
         </button>
       </h2>
@@ -121,7 +121,7 @@ class Menu extends React.Component {
   <div className="card">
     <div className="card-header" id="headingFour">
       <h2 className="mb-0">
-        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <button className="btn btn-link collapsed menu-buttons" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Dessert Menu
         </button>
       </h2>
@@ -146,9 +146,8 @@ class Menu extends React.Component {
         </div>
         </div>
       </div>
-
-</div>
-</div>
+    </div>
+  </div>
 </div>
 
 )

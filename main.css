@@ -139,6 +139,10 @@ video {
 
 /* MENU CSS */
 
+.menu-buttons {
+  color: #474746;
+}
+
 #daytimeID, #lunchID, #dinnerID, #dessertID, #drinkID {
   margin-left: 8em;
 }
@@ -150,6 +154,7 @@ video {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   font-family: 'El Messiri', sans-serif;
+  margin-bottom: 3em;
 }
 
 h4 {
@@ -157,6 +162,7 @@ h4 {
 }
 
 .breakfast-sides, .lunch-sides, .dinner-sides {
+  width: 73%;
   border: 1px solid black;
   padding-left: 10px;
   padding-top: 5px;

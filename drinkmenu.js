@@ -29,17 +29,8 @@ class DrinkMenu extends React.Component {
         <p>Rum + Coconut * 14<br/>
         Ron Zacapa Rum, Coconut Roasted Cashew, Amontillado Sherry, Lime Mint</p>
         </div>
-        <hr/>
-        <h4 id="wineID">Wines By The Glass<hr/></h4>
-        <div className="drink-menu">
-        <div className="item-menu">
-        <h3>Reds</h3>
-        <p>PINOT NOIR, WILLAMETTE, OR, SOKOL BLOSSER<br/>
-        "ARGYLE", 2017 * 18</p>
-        <p>SANGIOVESE, VAL DI SUGA, ROSSO DI MONTALCINO, 2018 * 21</p>
-        </div>
-        </div>
       </div>
+          <hr/>
     </div>
     )
   }
