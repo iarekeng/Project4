@@ -58,8 +58,8 @@ footer {
 /* CAROUSEL */
 
 .carousel, .carousel-item > img {
-  max-width: 400px;
-  max-height: 500px;
+  max-width: 550px;
+  max-height: 650px;
   align: center;
 }
 
@@ -138,6 +138,14 @@ video {
 
 
 /* MENU CSS */
+
+.dropdown-item {
+  transition: height 1s ease;
+}
+
+.menu-container {
+  padding-top: 5em;
+}
 
 .menu-buttons {
   color: #474746;

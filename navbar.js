@@ -26,6 +26,7 @@ class Nav extends React.Component {
           <a className="dropdown-item" href="#lunchID">Lunch</a>
           <a className="dropdown-item" href="#dinnerID">Dinner</a>
           <a className="dropdown-item" href="#dessertID">Dessert</a>
+          <a className="dropdown-item" href="#drinkID">Cocktails</a>
         </div>
       </li>
     </ul>
