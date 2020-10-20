@@ -3,7 +3,7 @@ class DrinkMenu extends React.Component {
     return (
       <div className="drink-container">
       <hr/>
-      <h4 id="drinkID">Dessert<hr/></h4>
+      <h4 id="drinkID">Cocktails<hr/></h4>
         <div className="drink-menu">
         <div className="item-menu">
         <p>APEROL + BUBBLES * 14<br/>
@@ -25,16 +25,12 @@ class DrinkMenu extends React.Component {
         <p>BOURBON + GINGER * 14<br/>
         Woodinville Bourbon, Ginger, Lemon Verbena, Cabernet Sauvignon, Citris, Vanilla Bean Tincture</p>
         </div>
-        <hr/>
-        <h4 id="wineID">Wines By The Glass</h4>
-        <hr/>
-        <div className="reds-menu">
-        <h3>Reds</h3>
-        <p>PINOT NOIR, WILLAMETTE, OR, SOKOL BLOSSER<br/>
-        "ARGYLE", 2017 * 18</p>
-        <p>SANGIOVESE, VAL DI SUGA, ROSSO DI MONTALCINO, 2018 * 21</p>
+        <div className="item-menu">
+        <p>Rum + Coconut * 14<br/>
+        Ron Zacapa Rum, Coconut Roasted Cashew, Amontillado Sherry, Lime Mint</p>
         </div>
       </div>
+          <hr/>
     </div>
     )
   }
