@@ -139,12 +139,9 @@ video {
 
 /* MENU CSS */
 
-.dropdown-item {
-  transition: height 1s ease;
-}
 
 .menu-container {
-  padding-top: 5em;
+  padding-top: 1.5em;
 }
 
 .menu-buttons {
